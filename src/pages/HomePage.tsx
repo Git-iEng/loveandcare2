@@ -296,8 +296,8 @@ const HomePage = () => {
               {[
                 { name: "Harsha Mahale", role: "President", cls: "t1" },
                 { name: "Gaurav Bhagat", role: "Vice President", cls: "t2" },
+                { name: "Shila More", role: "Treasurer", cls: "t4" },
                 { name: "Pratiksha Walhekar", role: "Secretary", cls: "t3" },
-                { name: "Shila More", role: "Treasurer", cls: "t4" }
               ].map((member) => (
                 <div key={member.cls} className="col-md-3 photo-grid text-center">
                   <div className={`dodecagon ${member.cls}`}>
