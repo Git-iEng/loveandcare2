@@ -2,16 +2,17 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const teamMembers = [
-  { name: "Durgeshan Naiker", role: "Volunteer", imgClass: "img-1", color: "#F2C94C" },
-  { name: "Shila More", role: "Volunteer", imgClass: "img-2", color: "#EB5757" },
-  { name: "Diksha Bhutekar", role: "President", imgClass: "img-10", color: "#2F80ED" },
-  { name: "Harsha Mahale", role: "Vice President", imgClass: "img-3", color: "#219653" },
-  { name: "Pratiksha Walhekar", role: "Secretary", imgClass: "img-4", color: "#2F80ED" },
-  { name: "Mayur Mane", role: "Treasurer", imgClass: "img-5", color: "#219653" },
-  { name: "Tejaswinee Chaudhari", role: "Volunteer", imgClass: "img-6", color: "#F2C94C" },
+  { name: "Durgeshan Naiker", role: "Executive Director / Authorized Signatory", imgClass: "bobbysir", color: "#0ea9e6" },
+  { name: "Harsha Mahale", role: "President", imgClass: "img-3", color: "#219653" },
+  { name: "Gaurav Bhagat", role: "Vice President", imgClass: "img-9", color: "#EB5757" },
+  { name: "Shila More", role: "Treasurer", imgClass: "img-2", color: "#F2C94C" },
+  { name: "Pratiksha Walhekar", role: "Secretary", imgClass: "img-4", color: "#219653" },
   { name: "Kushankur Das", role: "Volunteer", imgClass: "img-15", color: "#EB5757" },
-  { name: "Nikhil Shirke", role: "Volunteer", imgClass: "img-8", color: "#2F80ED" },
-  { name: "Gaurav Bhagat", role: "Volunteer", imgClass: "img-9", color: "#EB5757" },
+  { name: "Avishri Patil", role: "Volunteer", imgClass: "avishri", color: "#F2C94C" },
+  { name: "Sakshi Patil", role: "Volunteer", imgClass: "sakshi", color: "#0ea9e6" },
+  { name: "Aditi Pol", role: "Volunteer", imgClass: "aditi", color: "#F2C94C" },
+  { name: "Paranav Chowgule", role: "Volunteer", imgClass: "pranav", color: "#0ea9e6" },
+  { name: "Snehal Koli", role: "Volunteer", imgClass: "sakshi1", color: "#EB5757" },
 ];
 
 const TeamPage = () => {
@@ -23,7 +24,6 @@ const TeamPage = () => {
           <div className="heading-wrapper-brief">
             <section className="volunteer-section">
               <div className="container-vln2">
-                <p className="subheading">Team</p>
                 <h2 className="heading">Our Expert Team</h2>
                 <div className="volunteer-grid">
                   {teamMembers.map((member, idx) => (
@@ -36,11 +36,12 @@ const TeamPage = () => {
                   ))}
                 </div>
               </div>
-              <Footer />
+              
             </section>
           </div>
         </section>
       </div>
+      <Footer />
     </>
   );
 };

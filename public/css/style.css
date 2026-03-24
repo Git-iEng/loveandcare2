@@ -438,12 +438,16 @@ h3.tittle_w3_agileinfo.cen {
 .dodecagon-bg.t2, .octagon-bg.t2,
 .dodecagon-bg.t3, .octagon-bg.t3,
 .dodecagon-bg.t4, .octagon-bg.t4 {
-    background: url(/images/team/diksha.png) no-repeat 0px 0px;
+    background: url(/images/team/harsha.png) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.t2, .octagon-bg.t2 {
-    background: url(/images/team/harsha.png) no-repeat 0px 0px;
+    background: url(/images/team/gaurav.png) no-repeat 0px 0px;
+    background-size: cover;
+}
+.dodecagon-bg.gaurav, .octagon-bg.t2 {
+    background: url(/images/team/gaurav.png) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -453,7 +457,7 @@ h3.tittle_w3_agileinfo.cen {
 }
 
 .dodecagon-bg.t4, .octagon-bg.t4 {
-    background: url(/images/team/diksha.png) no-repeat 0px 0px;
+    background: url(/images/team/shila.png) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -812,3 +816,7 @@ p.read_para i {
 .banner_bottom_left {
     margin-top: 2em;
 }
+
+
+
+

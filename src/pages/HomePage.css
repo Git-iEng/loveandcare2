@@ -1,0 +1,500 @@
+/* ===== Layout fixes ===== */
+
+.banner_top {
+    overflow: hidden;
+}
+
+.about-brief-section {
+    padding: 70px 0 30px;
+    background: #fff;
+}
+
+.heading-wrapper-brief {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.project-section {
+    background: #fff;
+}
+
+.project-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.project-row.reverse {
+    flex-direction: row;
+}
+
+.project-text,
+.project-images {
+    flex: 1 1 48%;
+}
+
+.project-text h4 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-bottom: 18px;
+    color: #222;
+    font-weight: 700;
+}
+
+.project-text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #666;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-btn-left {
+    justify-content: flex-start;
+}
+
+.about-us-row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-us-text {
+    flex: 1 1 48%;
+    margin-top: 0;
+}
+
+.respon_info_img {
+    flex: 1 1 48%;
+    width: auto;
+    float: none;
+}
+
+.respon_info_img img {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+.portfolio-area.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Better project image mapping */
+.dodecagon-bg.l1 {
+    background: url(/images/project/2.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dodecagon-bg.l2 {
+    background: url(/images/project/1.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dodecagon-bg.l5 {
+    background: url(/images/project/feed.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dodecagon-bg.l6 {
+    background: url(/images/project/3.png) no-repeat center center;
+    background-size: cover;
+}
+
+.dodecagon.l5,
+.dodecagon.l6 {
+    width: 15em;
+    height: 18em;
+}
+
+/* Gallery image height fix */
+.portfolio-item2 img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+}
+
+/* About section spacing */
+.banner_bottom_left.about-us-text p {
+    margin-bottom: 1.5em;
+}
+
+/* Fix extra old float effects */
+.last_sec,
+.last-img-info_main,
+.last-img-info-text,
+.last-img-info {
+    float: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .project-row,
+    .project-row.reverse,
+    .about-us-row {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-text,
+    .project-images,
+    .respon_info_img,
+    .about-us-text {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .project-text,
+    .about-us-text {
+        text-align: center;
+    }
+
+    .project-btn-left {
+        justify-content: center;
+    }
+
+    .portfolio-item2 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-brief-section {
+        padding: 45px 0 15px;
+    }
+
+    .title-brief {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+
+    .subheading-brief,
+    .title-brief,
+    .paragraph-brief {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .carousel-caption {
+        width: 85%;
+        min-height: 500px !important;
+        padding-top: 9em;
+    }
+
+    .carousel-caption h3 {
+        font-size: 2.6em;
+    }
+}
+
+@media (max-width: 575px) {
+    .portfolio-item2 {
+        width: 100%;
+    }
+
+    .portfolio-item2 img {
+        height: auto;
+    }
+
+    .project-text h4 {
+        font-size: 1.5rem;
+    }
+
+    .carousel-caption h3 {
+        font-size: 2em;
+    }
+
+    .dodecagon.l1,
+    .dodecagon.l2,
+    .dodecagon.l3,
+    .dodecagon.l4,
+    .dodecagon.l5,
+    .dodecagon.l6 {
+        width: 10em;
+        height: 12em;
+    }
+}
+/* ===== Project Section Final Clean Code ===== */
+/* ===== Project Section ===== */
+
+.project-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #222;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    margin-bottom: 90px;
+}
+
+.project-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-content {
+    flex: 1 1 48%;
+}
+
+.project-content h4 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 18px;
+    color: #222;
+}
+
+.project-content p {
+    font-size: 16px;
+    line-height: 1.9;
+    color: #666;
+    margin-bottom: 22px;
+}
+
+.project-content .btn {
+    padding: 10px 22px;
+}
+
+/* image side */
+.project-images.rectangular-images {
+    flex: 1 1 48%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.project-rect-image {
+    flex: 1 1 0;
+    max-width: 260px;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.project-rect-image img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    object-fit: cover;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+    .project-card,
+    .project-card.reverse {
+        flex-direction: column;
+        text-align: center;
+        gap: 35px;
+    }
+
+    .project-content,
+    .project-images.rectangular-images {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .project-images.rectangular-images {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .project-rect-image {
+        max-width: 320px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .section-title {
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .project-content h4 {
+        font-size: 22px;
+    }
+
+    .project-content p {
+        font-size: 15px;
+    }
+
+    .project-rect-image img {
+        height: 240px;
+    }
+}
+
+
+/* ===== Events Section Images Only ===== */
+
+.event-rectangular-images {
+    flex: 1 1 48%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.event-rect-image {
+    flex: 1 1 0;
+    max-width: 360px;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f5f5f5;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.event-rect-image img {
+    width: 110%;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+}
+
+/* responsive */
+@media (max-width: 991px) {
+    .event-rectangular-images {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+
+    .event-rect-image {
+        max-width: 320px;
+    }
+
+    .event-rect-image img {
+        height: 320px;
+    }
+}
+
+@media (max-width: 575px) {
+    .event-rect-image {
+        max-width: 100%;
+    }
+
+    .event-rect-image img {
+        height: 240px;
+    }
+}
+
+
+/* ===== Gallery Section ===== */
+
+.portfolio-categ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio-categ li {
+    list-style: none;
+}
+
+.portfolio-categ li button {
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    cursor: pointer;
+    padding: 8px 14px;
+    transition: 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.portfolio-categ li.active button {
+    color: #ff5a00;
+}
+
+.portfolio-categ li button:hover {
+    color: #ff5a00;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.gallery-grid .portfolio-item2 {
+    width: calc(25% - 15px);
+    list-style: none;
+}
+
+.gallery-card {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f7f7f7;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 991px) {
+    .gallery-grid .portfolio-item2 {
+        width: calc(50% - 10px);
+    }
+}
+
+@media (max-width: 575px) {
+    .gallery-grid .portfolio-item2 {
+        width: 100%;
+    }
+
+    .gallery-card img {
+        height: 220px;
+    }
+}
