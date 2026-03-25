@@ -20,7 +20,7 @@ const EventPage = () => {
                     <p className="read_para">Attendees came together to reflect, connect, and share personal motivations behind joining this noble cause.</p>
                   </div>
                   <div className="col-md-6 read_img">
-                    <img src="/images/event/1.png" alt="Event" className="img-responsive" />
+                    <img src="/images/event/1.avif" alt="Event" className="img-responsive" />
                   </div>
                   <div className="col-md-6 read-img-info">
                     <p>Photos were taken to capture the joy and energy of the day — smiling faces, hopeful hearts, and the unmistakable excitement of launching something truly meaningful.</p>
@@ -40,7 +40,7 @@ const EventPage = () => {
               <div key={num} className="col-md-4 w3_tabs_grid">
                 <div className="grid">
                   <figure className="effect-winston">
-                    <img src={`/images/event/${num}.png`} className="img-responsive" alt="Event gallery" />
+                    <img src={`/images/event/${num}.avif`} className="img-responsive" alt="Event gallery" />
                     <figcaption>
                       <p>
                         <span className="glyphicon glyphicon-heart" aria-hidden="true"></span>
