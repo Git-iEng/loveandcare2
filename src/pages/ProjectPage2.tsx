@@ -43,7 +43,7 @@ const ProjectPage2 = () => {
 
                   <div className="col-md-6 read_img">
                     <img
-                      src="/images/pro2/1.jpg"
+                      src="/images/pro2/1.avif"
                       alt="Shri Chhatrapati Pratishthan visit"
                       className="img-responsive"
                     />
@@ -84,7 +84,7 @@ const ProjectPage2 = () => {
                   <div className="grid">
                     <figure className="effect-winston">
                       <img
-                        src={`/images/pro2/${num}.jpg`}
+                        src={`/images/pro2/${num}.avif`}
                         className="img-responsive"
                         alt="Project gallery"
                       />

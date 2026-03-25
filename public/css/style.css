@@ -209,22 +209,22 @@ span.desc {
 
 /* Banner carousel */
 .carousel .item {
-    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner1.png) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner1.avif) no-repeat;
     background-size: cover;
 }
 
 .carousel .item.item2 {
-    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner2.png) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner2.avif) no-repeat;
     background-size: cover;
 }
 
 .carousel .item.item3 {
-    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner3.png) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner3.avif) no-repeat;
     background-size: cover;
 }
 
 .carousel .item.item4 {
-    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner4.png) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(/images/banner4.avif) no-repeat;
     background-size: cover;
 }
 
@@ -438,26 +438,26 @@ h3.tittle_w3_agileinfo.cen {
 .dodecagon-bg.t2, .octagon-bg.t2,
 .dodecagon-bg.t3, .octagon-bg.t3,
 .dodecagon-bg.t4, .octagon-bg.t4 {
-    background: url(/images/team/harsha.png) no-repeat 0px 0px;
+    background: url(/images/team/harsha.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.t2, .octagon-bg.t2 {
-    background: url(/images/team/gaurav.png) no-repeat 0px 0px;
+    background: url(/images/team/gaurav.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 .dodecagon-bg.gaurav, .octagon-bg.t2 {
-    background: url(/images/team/gaurav.png) no-repeat 0px 0px;
+    background: url(/images/team/gaurav.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.t3, .octagon-bg.t3 {
-    background: url(/images/team/pratiksha.png) no-repeat 0px 0px;
+    background: url(/images/team/pratiksha.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.t4, .octagon-bg.t4 {
-    background: url(/images/team/shila.png) no-repeat 0px 0px;
+    background: url(/images/team/shila.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -469,12 +469,12 @@ h3.tittle_w3_agileinfo.cen {
 /* Project dodecagons */
 .dodecagon-bg.l1, .octagon-bg.l1,
 .dodecagon-bg.l2, .octagon-bg.l2 {
-    background: url(/images/project/2.png) no-repeat 0px 0px;
+    background: url(/images/project/2.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.l2, .octagon-bg.l2 {
-    background: url(/images/project/1.png) no-repeat 0px 0px;
+    background: url(/images/project/1.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -486,12 +486,12 @@ h3.tittle_w3_agileinfo.cen {
 /* Event dodecagons */
 .dodecagon-bg.l3, .octagon-bg.l3,
 .dodecagon-bg.l4, .octagon-bg.l4 {
-    background: url(/images/event/9.png) no-repeat 0px 0px;
+    background: url(/images/event/9.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
 .dodecagon-bg.l4, .octagon-bg.l4 {
-    background: url(/images/event/10.png) no-repeat 0px 0px;
+    background: url(/images/event/10.avif) no-repeat 0px 0px;
     background-size: cover;
 }
 
@@ -568,7 +568,7 @@ h3.tittle_w3_agileinfo.cen {
 
 /* Events coming section */
 .events-coming {
-    background: linear-gradient(rgba(23, 22, 23, 0.7), rgba(23, 22, 23, 0.7)), url(/images/banner1.png) no-repeat;
+    background: linear-gradient(rgba(23, 22, 23, 0.7), rgba(23, 22, 23, 0.7)), url(/images/banner1.avif) no-repeat;
     background-size: cover;
     padding: 6em 0;
 }
@@ -584,7 +584,7 @@ p.read_para i {
 }
 
 .banner-inner-page {
-    background: url(/images/banner1.png) no-repeat 0px 0px;
+    background: url(/images/banner1.avif) no-repeat 0px 0px;
     background-size: cover;
     min-height: 300px;
 }

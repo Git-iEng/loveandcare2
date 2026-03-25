@@ -118,10 +118,10 @@ const HomePage = () => {
 
       <div className="project-images rectangular-images">
         <div className="project-rect-image">
-          <img src="/images/project/2.png" alt="Apala Ghar visit 1" />
+          <img src="/images/project/2.avif" alt="Apala Ghar visit 1" />
         </div>
         <div className="project-rect-image">
-          <img src="/images/project/1.png" alt="Apala Ghar visit 2" />
+          <img src="/images/project/1.avif" alt="Apala Ghar visit 2" />
         </div>
       </div>
     </div>
@@ -142,10 +142,10 @@ const HomePage = () => {
 
       <div className="project-images rectangular-images">
         <div className="project-rect-image">
-          <img src="/images/pro2/1.jpg" alt="Feed the Hungry Child 1" />
+          <img src="/images/pro2/1.avif" alt="Feed the Hungry Child 1" />
         </div>
         <div className="project-rect-image">
-          <img src="/images/pro2/4.jpg" alt="Feed the Hungry Child 2" />
+          <img src="/images/pro2/4.avif" alt="Feed the Hungry Child 2" />
         </div>
       </div>
     </div>
@@ -158,10 +158,10 @@ const HomePage = () => {
     <div className="project-row">
       <div className="project-images event-rectangular-images">
         <div className="event-rect-image">
-          <img src="/images/event/1.png" alt="Opening Ceremony 1" />
+          <img src="/images/event/1.avif" alt="Opening Ceremony 1" />
         </div>
         <div className="event-rect-image">
-          <img src="/images/event/2.png" alt="Opening Ceremony 2" />
+          <img src="/images/event/2.avif" alt="Opening Ceremony 2" />
         </div>
       </div>
 
@@ -187,7 +187,7 @@ const HomePage = () => {
           <h3 className="tittle_w3_agileinfo">About us</h3>
           <div className="about-us-row">
             <div className="respon_info_img">
-              <img src="/images/project/feed.png" className="img-responsive" alt="Feed the Hungry" />
+              <img src="/images/project/feed.avif" className="img-responsive" alt="Feed the Hungry" />
             </div>
             <div className="banner_bottom_left about-us-text">
               <h4>Feed the Hungry Child</h4>
@@ -239,11 +239,11 @@ const HomePage = () => {
 
       <ul className="portfolio-area clearfix gallery-grid">
         {(activeFilter === "all" || activeFilter === "project") &&
-          [10, 2, 3, 4, 7 , 18, 19, 16, 17, 20, 21].map((num) => (
+          [10, 2, 3, 4, 7, 5, 18, 19, 16, 17, 20, 21].map((num) => (
             <li key={`proj-${num}`} className="portfolio-item2">
               <div className="gallery-card">
                 <span className="image-block">
-                  <img src={`/images/project/${num}.png`} className="img-responsive" alt="Project" />
+                  <img src={`/images/project/${num}.avif`} className="img-responsive" alt="Project" />
                 </span>
               </div>
             </li>
@@ -254,18 +254,18 @@ const HomePage = () => {
             <li key={`evt-${num}`} className="portfolio-item2">
               <div className="gallery-card">
                 <span className="image-block">
-                  <img src={`/images/event/${num}.png`} className="img-responsive" alt="Event" />
+                  <img src={`/images/event/${num}.avif`} className="img-responsive" alt="Event" />
                 </span>
               </div>
             </li>
           ))}
 
         {(activeFilter === "all" || activeFilter === "children") &&
-          [9, 8, 6 ,20, 21].map((num) => (
+          [9, 8, 6, 11].map((num) => (
             <li key={`child-${num}`} className="portfolio-item2">
               <div className="gallery-card">
                 <span className="image-block">
-                  <img src={`/images/project/${num}.png`} className="img-responsive" alt="Children" />
+                  <img src={`/images/project/${num}.avif`} className="img-responsive" alt="Children" />
                 </span>
               </div>
             </li>

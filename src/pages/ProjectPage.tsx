@@ -20,7 +20,7 @@ const ProjectPage = () => {
                     <p className="read_para">We were touched to see the holistic environment that <i>Apala Ghar</i> provides, including a small in-house hospital, creative spaces for children, and a serene garden for the elderly.</p>
                   </div>
                   <div className="col-md-6 read_img">
-                    <img src="/images/project/10.png" alt="Project" className="img-responsive" />
+                    <img src="/images/project/10.avif" alt="Project" className="img-responsive" />
                   </div>
                   <div className="col-md-6 read-img-info">
                     <p>What stood out the most was the bond between generations living under one roof — children finding wisdom in the elderly, and seniors finding joy in the innocence of youth.</p>
@@ -39,7 +39,7 @@ const ProjectPage = () => {
                 <div key={num} className="col-md-4 w3_tabs_grid">
                   <div className="grid">
                     <figure className="effect-winston">
-                      <img src={`/images/project/${num}.png`} className="img-responsive" alt="Project gallery" />
+                      <img src={`/images/project/${num}.avif`} className="img-responsive" alt="Project gallery" />
                       <figcaption>
                         <p>
                           <span className="glyphicon glyphicon-heart" aria-hidden="true"></span>

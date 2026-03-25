@@ -34,7 +34,7 @@ const AboutPage = () => {
                 </div>
 
                 <section className="section">
-                  <img src="/images/about/2.png" alt="Educational Empowerment" />
+                  <img src="/images/about/2.avif" alt="Educational Empowerment" />
                   <div className="section-content">
                     <h2>Educational Empowerment</h2>
                     <p>To provide education, training, and rehabilitation support for underprivileged children, women, and differently-abled individuals. To distribute free educational materials to economically disadvantaged students.</p>
@@ -42,7 +42,7 @@ const AboutPage = () => {
                 </section>
 
                 <section className="section">
-                  <img src="/images/about/15.png" alt="Women Welfare" />
+                  <img src="/images/about/15.avif" alt="Women Welfare" />
                   <div className="section-content">
                     <h2>Women and Girl Child Welfare</h2>
                     <p>The Love and Care organisation is deeply committed to the empowerment and protection of women and girl children. Through awareness programs, the organization educates communities on gender equality, women's rights, and safety.</p>
@@ -50,7 +50,7 @@ const AboutPage = () => {
                 </section>
 
                 <section className="section">
-                  <img src="/images/about/16.png" alt="Healthcare" />
+                  <img src="/images/about/16.avif" alt="Healthcare" />
                   <div className="section-content">
                     <h2>Healthcare and Medical Services</h2>
                     <p>The organization conducts regular health awareness programs and free medical check-up camps to promote early detection and prevention of common illnesses.</p>
@@ -58,7 +58,7 @@ const AboutPage = () => {
                 </section>
 
                 <section className="section">
-                  <img src="/images/about/14.png" alt="Social Welfare" />
+                  <img src="/images/about/14.avif" alt="Social Welfare" />
                   <div className="section-content">
                     <h2>Social Welfare and Relief Activities</h2>
                     <p>The Love and Care Social Club is committed to social welfare and humanitarian relief, focusing on the care and protection of society's most vulnerable groups.</p>
@@ -66,7 +66,7 @@ const AboutPage = () => {
                 </section>
 
                 <section className="section">
-                  <img src="/images/about/dis.png" alt="Skill Development" />
+                  <img src="/images/about/dis.avif" alt="Skill Development" />
                   <div className="section-content">
                     <h2>Skill Development and Livelihood Support</h2>
                     <p>Facilitate free or subsidized skill development programs in crafts, tailoring, computer literacy, agriculture, and other locally relevant trades to empower youth, women, and marginalized individuals.</p>
